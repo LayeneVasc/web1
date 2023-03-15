@@ -1,0 +1,30 @@
+p {
+    font-size: 20px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-weight: bold;
+
+}
+
+#p3 {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+#lista1 {
+    list-style-type: square;
+}
+
+#lista2 {
+    list-style-type: circle;
+}
+
+body {
+    background-color: #FFCC66;
+}
+img {
+    background-image: url("butterfly.gif");
+}
