@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#corpo {
+    border: 1px solid black;
+    width: 80%;
+    height: 500px;
+}
+
+#header {
+    border: 1px solid green;
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+nav {
+    border: 1px solid purple;
+    width: 100%;
+    height: 40px;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    /* height: px; */
+
+}
+
+#c1 {
+    border: 2px solid black;
+    width: 25%;
+    height: 390px;
+    float: left;
+    overflow:scroll;
+}
+
+#c2 {
+    border: 2px solid black;
+    width: 50%;
+    height: 390px;
+    float: left;
+    position:relative;
+}
+
+#c3 {
+    border: 2px solid black;
+    width: 25%;
+    height: 390px;
+    float: left;
+}
+
+footer {
+    border: 1px solid rgb(71, 130, 211);
+    width: 100%;
+    height: 40px;
+    left: 0%;
+    bottom: 0%;
+    background-color: red;
+}
+
+
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#box1 {
+    background-color: rgb(255, 255, 0);
+    top: 30px;
+    left: 30px;
+}   
+
+#box2 {
+    background-color: red;
+    top: 30px;
+    right: 30px;
+}
+
+#box3 {
+    background-color: blueviolet;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+#box4 {
+    background-color: rgb(25, 25, 240);
+    bottom: 30px;
+    left:30px;  
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+
+}
+
+ul {
+
+}
