@@ -1,0 +1,79 @@
+.legend {
+    display: flex;
+    background-color: white;
+    height: 110px;
+    width: 140px;flex-direction: row;
+
+}
+
+
+.leg1 {
+display: flex;
+background-color: rgb(21, 145, 21);
+height: 40px;
+width: 50px;
+
+}
+
+.leg2 {
+    display: block;
+    background-color: rgb(190, 24, 15);
+    height: 40px;
+    width: 50px;
+    margin-block: 30px;
+
+}
+
+.leg3 {
+    display: block;
+    border-color: black;
+    background-color: rgb(224, 185, 11);
+    height: 40px;
+    width: 50px;
+}
+
+.container {
+    background-color: gainsboro;
+    display: flex;
+    height: 300px;
+    font-weight: bold;
+    justify-content: space-around;
+
+}
+
+.livre {
+    display: block;
+    background-color: rgb(21, 145, 21);
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    width: 120px;
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.ocupado {
+    display: block;
+    background-color: rgb(190, 24, 15);
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    width: 120px;
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+.manuntencao {
+    display: block;
+    background-color: rgb(224, 185, 11);
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    width: 120px;
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+}
